@@ -24,7 +24,3 @@ Sparks up expo process.
 
 I don't know. `watchman` is definitely seeing the issues. For now, it seems
 that reloading in the CLI works okay. Hit `r` for great win.
-
-## Client doesn't talk to server yet :)
-
-`connect_error due to xhr poll error`. Permissions?
