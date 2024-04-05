@@ -7,6 +7,7 @@ const io = new Server(httpServer, {
 });
 
 io.on("connection", (socket: Socket) => {
+  console.log("We got a connection.");
   socket.on("ping", (...args) => console.log("received", args));
 });
 
